@@ -1,1 +1,0 @@
-# amplify-datastore-demo
