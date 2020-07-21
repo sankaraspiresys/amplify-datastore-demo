@@ -87,7 +87,7 @@ export default class TodoComponent extends Component {
     return (
       <div>
         <div className="row large-6 large-offset-5 medium-6 medium-offset-5 small-6 small-offset-5 columns">
-          <h3>My Todo List</h3> <button onClick={this.signOut}>Logout</button>
+          <h3>My Todo List</h3> <button className="alert button" onClick={this.signOut}>Logout</button>
         </div>
         <CreateTodo
           createTodo={this.createTodo.bind(this)}
